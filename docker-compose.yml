@@ -5,7 +5,7 @@ services:
     image: ms_prototype
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: PC.Dockerfile
     volumes: 
       - ".:/app"
     command: python -u /app/service.py
